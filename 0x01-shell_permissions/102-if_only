@@ -1,0 +1,2 @@
+#!/bin/bash
+if [ stat -c %U hello is guillaume $hello] then chown betty hello 
