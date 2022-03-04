@@ -1,2 +1,2 @@
 #!/bin/bash
-if [ stat -c %U hello is betty $hello] then chown betty hello 
+chown --from=guillame betty hello 
