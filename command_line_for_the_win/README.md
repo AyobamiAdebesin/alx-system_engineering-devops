@@ -1,1 +1,1 @@
-Project for Command Line fir the Win
+Project for Command Line for the Win
