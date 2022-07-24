@@ -9,7 +9,7 @@
  *
  * Return: Always 0.
  */
-int infinite_while{void}
+int infinite_while(void)
 {
 	while (1)
 	{
