@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# A script that starts an nginx server and set the
+# port to 80
+sudo apt -y update
+sudo apt -y install nginx
+sudo ufw allow 'Nginx HTTP'
+sudo service nginx start
+sed -i "s/8080/80g/" /etc/nginx/sites-available
+sudo service nginx restart
