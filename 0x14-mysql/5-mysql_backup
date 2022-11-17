@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-sudo mysqldump -u root --all-databases > backup.sql
+sudo mysqldump -u root -p $1 --all-databases > backup.sql
 day=$(date +"%d")
 month=$(date +"%m")
 year=$(date +"%Y")
